@@ -1,0 +1,36 @@
+# --- Secrets ---
+.env
+*.key
+*.pem
+
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# --- IDE / Editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Claude Code local config ---
+.claude/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Excel temp files ---
+~$*.xlsx
+~$*.xls
+
+# --- Logs ---
+*.log
+logs/
